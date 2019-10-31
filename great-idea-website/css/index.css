@@ -50,6 +50,7 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
+	border: 1px solid red;
 }
 
 html, body {
@@ -64,6 +65,10 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+div
+{
+	border: 1px solid red;
+}
 nav
 {
 	text-align: center;
@@ -79,22 +84,72 @@ nav > a
 {
 	text-align: center;
 	margin: 5%;
-	display: inline-block;
 }
-
-.slogan
+.title div h1
 {
-	padding: 50px;
-	font-size: 60px;
+	font-size: 68px;
+}
+.title div
+{
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+}
+.title img
+{
+	display: inline-block;
+	vertical-align: middle;
 }
 .image
 {
-	float:right;
 	margin-right: 20px;
+	width: 50%;
 }
-button{
-	display:block;
+.title div p
+{
+	border: 1px solid black;
+	width: fit-content;
+	padding: 20px 30px 20px 30px;
+	margin: 0 auto;
 }
+
+#section_A 
+{
+
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+#section_A div
+{
+	display: inline-block;
+	width: 49.5%;
+}
+
+#middlePicture
+{
+	text-align: center;
+}
+
+#middlePicture img
+{
+	width: 90%;
+}
+
+#section_B
+{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#section_B div
+{
+	display: inline-block;
+	width: 49.5%;
+}
+
+
 footer > p
 {
 	text-align: center;
