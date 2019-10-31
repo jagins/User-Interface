@@ -50,7 +50,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 1px solid red;
 }
 
 html, body {
@@ -65,10 +64,6 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-div
-{
-	border: 1px solid red;
-}
 nav
 {
 	text-align: center;
@@ -79,7 +74,10 @@ nav > a
 	text-decoration: none;
 	margin: 2%;
 }
-
+nav img
+{
+	margin-left: 10%;
+}
 .title
 {
 	text-align: center;
@@ -115,10 +113,8 @@ nav > a
 
 #section_A 
 {
-
 	width: 90%;
 	margin: 0 auto;
-
 }
 
 #section_A div
@@ -146,9 +142,18 @@ nav > a
 #section_B div
 {
 	display: inline-block;
-	width: 49.5%;
+	width: 30%;
 }
 
+#contact
+{
+	margin-left: 5%;
+}
+
+#contact p
+{
+	line-height: 3;
+}
 
 footer > p
 {
